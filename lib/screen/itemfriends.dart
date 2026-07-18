@@ -33,7 +33,7 @@ class _FriendState extends State<Friend> {
         return Container(
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(20),
-            color: _getCardColor(emp[index].name),
+            color: _getCardColor(emp[index].nickname),
           ),
           margin: const EdgeInsets.symmetric(vertical: 2, horizontal: 3),
           padding: const EdgeInsets.all(30),
@@ -46,7 +46,8 @@ class _FriendState extends State<Friend> {
                   Text(
                     emp[index].name, 
                     style: const TextStyle(
-                      fontSize: 25, fontWeight: FontWeight.bold),
+                      fontSize: 25, fontWeight: FontWeight.bold,
+                      color: Color.fromARGB(255, 175, 76, 76)),
                   ),
                   Text(
                     "ชื่อเล่น: ${emp[index].nickname}",
@@ -66,7 +67,7 @@ class _FriendState extends State<Friend> {
                   Text(
                     "เลขที่ชอบ: ${emp[index].fevnumber} ",
                     style: const TextStyle(
-                      fontSize: 15, fontWeight: FontWeight.bold), 
+                      fontSize: 15, fontWeight: FontWeight.bold,), 
                   ),                                                       
                 ],
               ),

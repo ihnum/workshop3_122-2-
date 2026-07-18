@@ -48,6 +48,11 @@ class _ItemState extends State<Item> {
                 children: [
                   Text(
                     emp[index].name, 
+                    //style: GoogleFonts.itim(
+                          //textStyle: const TextStyle(
+                          //fontSize: 25,
+                          //fontWeight: FontWeight.bold,
+                          //color: Colors.white,
                     style: const TextStyle(
                       fontSize: 25, fontWeight: FontWeight.bold),
                   ),

@@ -24,7 +24,7 @@ class FriendsMenu {
 
 List<FriendsMenu> emp = [
   FriendsMenu(
-    name: "เชียร์",
+    name: "อรรถพล",
     nickname: "เชียร์",
     age: 21,
     fevfood: "เนื้อสัตว์",
@@ -32,7 +32,7 @@ List<FriendsMenu> emp = [
     friendpic: Friendpic.menu1,
   ),
   FriendsMenu(
-    name: "ปูน",
+    name: "ธนเวช",
     nickname: "ปูน",
     age: 21,
     fevfood: "บร็อคโคลี่",
@@ -40,7 +40,7 @@ List<FriendsMenu> emp = [
     friendpic: Friendpic.menu2,
   ),
   FriendsMenu(
-    name: "โอเว่น",
+    name: "สิริชัย",
     nickname: "โอเว่น",
     age: 21,
     fevfood: "เนื้อสัตว์",

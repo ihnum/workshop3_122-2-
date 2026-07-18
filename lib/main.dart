@@ -14,6 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
+        backgroundColor: Colors.black,
         appBar: AppBar(
           title: const Text('CET App ID:122'),
           backgroundColor: Colors.orange,
@@ -21,6 +22,7 @@ class MyApp extends StatelessWidget {
         ),
         //body: const Home(),
         body: const Friend(),
+        //body: const Item(),
       ),
     );
   }
